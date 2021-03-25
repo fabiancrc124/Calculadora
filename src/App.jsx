@@ -20,7 +20,7 @@ export default function SimpleContainer() {
               <DialogTitle id=""></DialogTitle>
               <DialogContent>
                 <DialogContentText>
-                  
+                  Hola mundo
                 </DialogContentText>
               </DialogContent>
               <DialogActions>
