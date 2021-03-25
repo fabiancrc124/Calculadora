@@ -4,6 +4,11 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button'
+import Dialog from '@material-ui/core/Dialog'
+import DialogActions from '@material-ui/core/DialogActions'
+import DialogContent from '@material-ui/core/DialogContent'
+import DialogContentText from '@material-ui/core/DialogContentText'
+import DialogTitle from '@material-ui/core/DialogTitle'
 
 
 export default function SimpleContainer() {
@@ -11,6 +16,19 @@ export default function SimpleContainer() {
     <React.Fragment>
       <Button variant="contained" color="default">
           <Container maxWidth="xs">
+            <Dialog open={} onClose={} aria-labelledby="">
+              <DialogTitle id=""></DialogTitle>
+              <DialogContent>
+                <DialogContentText>
+                  
+                </DialogContentText>
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={} color="default">
+                  Cancel
+                </Button>
+              </DialogActions>
+            </Dialog>
             
           </Container>
           </Button>
@@ -20,5 +38,6 @@ export default function SimpleContainer() {
         
       </Container>
     </React.Fragment>
-  );
+      );
+  
 }
