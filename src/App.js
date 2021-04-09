@@ -22,6 +22,8 @@ class App extends React.Component {
   }
 
   setOperation = (objectOperation) => {
+
+    
     switch (objectOperation[0]) {
       case 'addNumber':
         console.log(`addNumber resultado: ${this.state.resultado}`);
